@@ -48,9 +48,11 @@ Converts Anthropic-format requests (messages, tools, streaming SSE) to OpenAI fo
 
 ### Vision Support
 *Available in the paid version only.*
+https://buckles.gumroad.com/l/uhyfs
 
 ### 👁️ Vision Loop-Back (Autonomous Self-Vision)
 *Available in the paid version only.*
+https://buckles.gumroad.com/l/uhyfs
 
 ### Local Embeddings
 Handles embeddings locally on your CPU using `all-MiniLM-L6-v2` via `sentence-transformers`. Free, private, and fast — never sent to Moonshot.
@@ -77,8 +79,7 @@ The proxy works alongside MCP servers registered in your desktop app. The follow
 | `playwright` (built-in) | Browser automation, screenshots, navigation |
 | `ElevenLabs` | Text-to-speech, voice cloning, audio tools |
 | `mimi-vision` | Custom vision server (*Available in the paid version only*) |
-| `remotion-documentation` | Video documentation reference |
-| `videodb-director` | Video database and director tools |
+
 
 ### mimi-vision MCP Server
 *Available in the paid version only.*
