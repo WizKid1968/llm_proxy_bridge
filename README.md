@@ -29,6 +29,10 @@ This folder contains everything you need to run Moonshot Kimi-K2.5 with apps tha
 2. Double-click on `start.bat`.
 3. Keep the command prompt window open.
 
+> [!NOTE]
+> If you are on Windows and port `8080` is already in use by another service, you can change the port in `main.py` and `start.bat` to something else (e.g., `8181`). If you do this, make sure to also update your Desktop App's Base URL to match.
+
+
 ## ⚙️ App Configuration
 Configure your Desktop App with these exact settings:
 
