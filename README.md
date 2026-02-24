@@ -2,7 +2,7 @@
 
 This folder contains everything you need to run Moonshot Kimi-K2.5 with apps that don't support it natively (like memU Desktop).
 
-## � Setup (Required)
+## �️ Setup (Required)
 
 > [!IMPORTANT]
 > The `.env` file contains your API key and is **never committed** to the repository. You must create it yourself.
@@ -17,10 +17,17 @@ This folder contains everything you need to run Moonshot Kimi-K2.5 with apps tha
    ```
 
 ## �🚀 How to Run
+
+### macOS / Linux
 1. Open Terminal.
 2. Drag `start.sh` into the terminal window and press Enter.
    *(Or run `./start.sh` if you are already in the folder)*
 3. Keep the window open.
+
+### Windows
+1. Make sure you have [uv](https://docs.astral.sh/) installed.
+2. Double-click on `start.bat`.
+3. Keep the command prompt window open.
 
 ## ⚙️ App Configuration
 Configure your Desktop App with these exact settings:
@@ -63,7 +70,8 @@ Handles embeddings locally on your CPU using `all-MiniLM-L6-v2` via `sentence-tr
 
 | File | Purpose |
 |------|---------|\
-| `start.sh` | Launcher — downloads dependencies automatically |
+| `start.sh` | macOS/Linux launcher — downloads dependencies automatically |
+| `start.bat` | Windows launcher — downloads dependencies automatically (requires `uv`) |
 | `main.py` | Core proxy logic — bridge, tool translation |
 | `.env.example` | Template — copy to `.env` and add your API key |
 | `.env` | **Your API key (create locally, never committed)** |

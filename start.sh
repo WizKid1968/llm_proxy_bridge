@@ -9,4 +9,4 @@ echo "Use http://127.0.0.1:8080/v1 in your app."
   --with httpx \
   --with sentence-transformers \
   --with python-dotenv \
-  python proxy_vision_v4.py
+  python main.py
